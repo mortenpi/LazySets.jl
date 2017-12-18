@@ -47,6 +47,7 @@ dim(::Ball2)
 ∈(::AbstractVector{Float64}, ::Ball2{Float64})
 an_element(::Ball2{Float64})
 ⊆(::Ball2, ::Singleton)
+⊆(::Ball2, ::AbstractHyperrectangle)
 center(::Ball2{Float64})
 ```
 
@@ -93,6 +94,7 @@ dim(::Ballp)
 ∈(::AbstractVector{Float64}, ::Ballp{Float64})
 an_element(::Ballp{Float64})
 ⊆(::Ballp, ::Singleton)
+⊆(::Ballp, ::AbstractHyperrectangle)
 center(::Ballp{Float64})
 ```
 
