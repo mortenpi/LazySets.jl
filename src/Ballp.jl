@@ -206,8 +206,8 @@ Check whether a ball in the p-norm is contained in a set with a single value.
 
 ### Input
 
-- `B` -- ball in the p-norm
-- `S` -- set with a single value
+- `B` -- inner ball in the p-norm
+- `S` -- outer set with a single value
 
 ### Output
 
@@ -224,8 +224,8 @@ Check whether a ball in the p-norm is contained in a hyperrectangle.
 
 ### Input
 
-- `B` -- ball in the p-norm
-- `H` -- hyperrectangle
+- `B` -- inner ball in the p-norm
+- `H` -- outer hyperrectangle
 
 ### Output
 
